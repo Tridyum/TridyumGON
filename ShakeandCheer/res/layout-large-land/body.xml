@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:background="@drawable/page"
+    android:layout_height="fill_parent"
+    android:id="@+id/bodies"
+     >
+
+    <Button
+        android:id="@+id/bayeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="31dp"
+  android:text="@string/yenidendene"
+        android:background="@drawable/buttoncustom"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/baswitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/confirm"
+        android:text="@string/devam"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/batimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baswitch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/imagecustom"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/badesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/batimer"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/confirm"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#0033FF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

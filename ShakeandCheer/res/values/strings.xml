@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShakeandCheer</string>
+    <string name="title_activity_shake">ShakeActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nickname">İsim</string>
+    <string name="bestscore">En iyi Puan</string>
+    <string name="basliyor">Başlıyor</string>
+    <string name="dogri">Doğru</string>
+    <string name="pas">Pas</string>
+    <string name="tebrikler">Tebrikler</string>
+    <string name="basarisiz">Başarısız</string>
+    <string name="yenidendene">Yeniden Dene</string>
+    <string name="yenidenistermisini">Yeniden Denemek İster misin?</string>
+    <string name="evet">Evet</string>
+    <string name="hayir">Hayır</string>
+    <string name="dur">Durdu</string>
+    <string name="devam">Devam Ediyor</string>
+    <string name="fotograf">Bir Fotograf Çek</string>
+    <string name="area">Alan</string>
+    <string name="regitertitle">Kullanıcı Kaydı</string>
+   <string name="registerbutton">Kaydet</string>
+   <string name="status">Sonuç</string>
+   <string name="registerinfo">İsmi Girmedin!!!</string>
+   <string name="waiting">Bekliyiniz</string>
+   <string name="warning">Hatırlatma</string>
+   <string name="existing">Devam Eden bir aktivite var</string>
+   <string name="condo">Aktiviteye Devam etmek istermisin?</string>
+   <string name="langtitle">Language Options</string>
+   <string name="faciklama">1-10 kategori var</string>
+      <string name="saciklama">30 saniye içinde size gelen 6 kelimeyi karşınızdakine anlatmayya çalışıyorsunuz</string>
+         <string name="taciklama">Eğer karşı taraf doğru bilirse telefonunuzun ses açma tuşlarınından birine bas</string>
+            <string name="ffaciklama">yanlışsa z ekseninde telefonu salla</string>
+      <string name="eaa">Oyun Açıklaması</string>
+ <string-array name="languages">
+     <item>Turkish</item>
+     <item>English</item>
+     <item>German</item>
+     <item>Japan</item>
+     
+ </string-array>
+   
+    <array name="nav_drawer_icons">
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+        <item>@drawable/ozan</item>
+    </array>
+    
+    <string-array name="ozanmenu">
+        <item>Home</item>
+        <item>Verbs</item>
+        <item>Clothes</item>
+        <item>Body</item>
+        <item>Cars</item>
+        <item>Actors</item>
+        <item>Animals</item>
+        <item>Eating</item>
+        <item>Jobs</item>
+        <item>Pokemons</item>
+        <item>Sports</item>
+        <item>Language Options</item>
+        <item>Game Info</item>
+    </string-array>
+    
+    <string-array name="actor">
+        
+        <item>Johnny Depp</item>
+        <item>Arnold Schwarzenegger</item>
+        <item>Jim Carrey</item>
+        <item>Emma Watson</item>
+        <item>Daniel Radcliffe</item>
+        <item>Leonardo DiCaprio</item>
+        <item>Tom Cruise</item>
+        <item>Brad Pitt</item>
+        <item>Charles Chaplin</item>
+        <item>Morgan Freeman</item>
+        <item>Tom Hanks</item>
+        <item>Hugh Jackman</item>
+        <item>Matt Damon</item>
+        <item>Sylvester Stallone</item>
+        <item>Will Smith</item>
+        <item>Clint Eastwood</item>
+        <item>Cameron Diaz</item>
+        <item>George Clooney</item>
+        <item>Steven Spielberg</item>
+        <item>Harrison Ford</item>
+        <item>Robert De Niro</item>
+        <item>Al Pacino</item>
+        <item>Robert Downey Jr.</item>
+        <item>Russell Crowe</item>
+        <item>Liam Neeson</item>
+        <item>Kate Winslet</item>
+        <item>Mark Wahlberg</item>
+        <item>Natalie Portman</item>
+        <item>Pierce Brosnan</item>
+        <item>Sean Connery</item>
+        <item>Orlando Bloom</item>
+        <item>Dwayne Johnson</item>
+        <item>Jackie Chan</item>
+        <item>Angelina Jolie</item>
+        <item>Adam Sandler</item>
+        <item>Scarlett Johansson</item>
+        <item>Heath Ledger</item>
+        <item>Anne Hathaway</item>
+        <item>Jessica Alba</item>
+        <item>Edward Norton</item>
+        <item>Keira Knightley</item>
+        <item>Bradley Cooper</item>
+        <item>Will Ferrell</item>
+        <item>Julia Roberts</item>
+        <item>Nicolas Cage</item>
+        <item>Daniel Craig </item>
+        <item>Keanu Reeves</item>
+        <item>Ian McKellen</item>
+        <item>Halle Berry</item>
+        <item>Bruce Willis</item>
+        <item>Samuel L. Jackson</item>
+        <item>Ben Stiller</item>
+        <item>Tommy Lee Jones</item>
+        <item>Antonio Banderas</item>
+        <item>Denzel Washington</item>
+        <item>Steve Carell</item>
+        <item>Shia LaBeouf</item>
+        <item>Megan Fox</item>
+        <item>James Franco</item>
+        <item>Mel Gibson</item>
+        <item>Vin Diesel</item>
+        <item>Tim Allen</item>
+        <item>Robin Williams</item>
+        <item>Kevin Spacey</item>
+        <item>Jason Biggs</item>
+        <item>Seann William Scott</item>
+        <item>Jean-Claude Van Damme</item>
+        <item>Zach Galifianakis</item>
+        <item>Owen Wilson</item>
+        <item>Christian Bale</item>
+        <item>Peter Jackson</item>
+        <item>Sandra Bullock</item>
+        <item>Bruce Lee</item>
+        <item>Drew Barrymore</item>
+        <item>Macaulay Culkin</item>
+        <item>Jack Nicholson</item>
+        <item>Bill Murray</item>
+        <item>Sigourney Weaver</item>
+        <item>Jake Gyllenhaal</item>
+        <item>Kamal Haasan</item>
+        <item>Jason Statham</item>
+        <item>Jet Li</item>
+        <item>Kate Beckinsale</item>
+        <item>Rowan Atkinson</item>
+        <item>Marlon Brando</item>
+        <item>John Travolta</item>
+        <item>Channing Tatum</item>
+        <item>Ben Affleck</item>
+        <item>Shah Rukh Khan</item>
+        <item>Jennifer Aniston</item>
+        <item>Emma Stone</item>
+        <item>Chris Hemsworth</item>
+        <item>James McAvoy</item>
+        <item>James Cameron</item>
+        <item>Amitabh Bachchan</item>
+        <item>Brendan Fraser</item>
+        <item>Rachel McAdams</item>
+        <item>Tom Hiddleston</item>
+        <item>Aamir Khan</item>
+        <item>Rajinikanth</item>
+    </string-array>
+    <string-array name="car">
+        <item>Abarth</item>
+         <item>Alfa Romeo</item>
+          <item>Asia Motors</item>
+           <item>Aston Martin</item>
+            <item>Audi</item>
+             <item>Austin</item>
+              <item>Autobianchi</item>
+              <item>Bentley</item>
+              <item>BMW</item>
+              <item>Bugatti</item>
+              <item>Buick</item>
+              <item>Cadillac</item>
+              <item>Carver</item>
+              <item>Chevrolet</item>
+              <item>Chrysler</item>
+              <item>Citroen</item>
+              <item>Corvette</item>
+              <item>Dacia</item>
+              <item>Daewoo</item>
+              <item>Daihatsu</item>
+              <item>Daimler</item>
+              <item>Datsun</item>
+              <item>Dodge</item>
+              <item>Donkervoort</item>
+              <item>Ferrari</item>
+              <item>Fiat</item>
+              <item>Fisker</item>
+              <item>Ford</item>
+              <item>FSO</item>
+              <item>Galloper</item>
+              <item>Honda</item>
+              <item>Hummer</item>
+              <item>Hyundai</item>
+              <item>Infiniti</item>
+              <item>Innocenti</item>
+              <item>Iveco</item>
+              <item>Jaguar</item>
+              <item>Jeep</item>
+              <item>Josse</item>
+              <item>Kia</item>
+              <item>KTM</item>
+              <item>Land Rover</item>
+              <item>Landwind</item>
+              <item>Lexus</item>
+              <item>Lincoln</item>
+              <item>Lotus</item>
+              <item>Marcos</item>
+              <item>Maserati</item>
+              <item>Maybach</item>
+              <item>Mazda</item>
+              <item>Mega</item>
+              <item>Mercedes</item>
+              <item>Pontiac</item>
+              <item>Porsche</item>
+              <item>Princess</item>
+              <item>Renault</item>
+              <item>Rolls-Royce</item>
+              <item>Rover</item>
+              <item>Saab</item>
+              <item>Seat</item>
+              <item>Skoda</item>
+              <item>Smart</item>
+              <item>Spectre</item>
+              <item>SsangYong</item>
+               <item>Subaru</item>
+                <item>Suzuki</item>
+                 <item>Talbot</item>
+                  <item>Tesla</item>
+                   <item>Think</item>
+                    <item>Toyota</item>
+                    <item>Triumph</item>
+                    <item>TVR</item>
+                    <item>Volkswagen</item>
+                    <item>Volvo</item>
+    </string-array>
+<string-array name="pokemon">
+    <item>Bulbasaur</item>
+    <item>Ivysaur</item>
+    <item>Venasaur</item>
+    <item>Charmander</item>
+    <item>Charmeleon</item>
+    <item>Charizard</item>
+    <item>Squirtle</item>
+    <item>Wartortle</item>
+    <item>Blastoise</item>
+    <item>Caterpie</item>
+    <item>Metapod</item>
+    <item>Butterfree</item>
+    <item>Weedle</item>
+    <item>Kakuna</item>
+    <item>Beedrill</item>
+    <item>Pidgey</item>
+    <item>Pidgeotto</item>
+    <item>Pidgeot</item>
+    <item>Rattata</item>
+    <item>Raticate</item>
+    <item>Spearow</item>
+    <item>Fearow</item>
+    <item>Ekans</item>
+    <item>Arbok</item>
+    <item>Pikachu</item>
+    <item>Raichu</item>
+    <item>Sandshrew</item>
+    <item>Sandslash</item>
+    <item>Nidoran</item>
+    <item>Nidorina</item>
+    <item>Nidoqueen</item>
+    <item>Nidoran</item>
+    <item>Nidorino</item>
+    <item>Nidoking</item>
+    <item>Clefairy</item>
+    <item>Clefable</item>
+    <item>Vulpix</item>
+    <item>Ninetales</item>
+    <item>Jigglypuff</item>
+    <item>Wigglypuff</item>
+    <item>Zubat</item>
+    <item>Golbat</item>
+    <item>Oddish</item>
+    <item>Gloom</item>
+    <item>Vileplume</item>
+    <item>Paras</item>
+    <item>Parasect</item>
+    <item>Venonat</item>
+    <item>Diglett</item>
+    <item>Dugtrio</item>
+    <item>Meowth</item>
+    <item>Persian</item>
+    <item>Psyduck</item>
+    <item>Mankey</item>
+    <item>Primeape</item>
+    <item>Growlithe</item>
+    <item>Arcanine</item>
+    <item>Poliwag</item>
+    <item>Poliwhirl</item>
+    <item>Poliwrath</item>
+    <item>Abra</item>
+    <item>Kadara</item>
+    <item>Alakazam</item>
+    <item>Machop</item>
+    <item>Machoke</item>
+    <item>Machamp</item>
+    <item>Bellsprout</item>
+    <item>Weepinbell</item>
+    <item>Victreebell</item>
+    <item>Tentacool</item>
+    <item>Tentacruel</item>
+    <item>Graveler</item>
+    <item>Golem</item>
+    <item>Ponyta</item>
+    <item>Rapidash</item>
+    <item>Slowpoke</item>
+    <item>Slowbro</item>
+    <item>Magnemite</item>
+    <item>Magneton</item>
+    <item>Farfetch</item>
+    <item>Doduo</item>
+    <item>Dodrio</item>
+    <item>Seel</item>
+    <item>Dewgong</item>
+    <item>Grimer</item>
+    <item>Muk</item>
+    <item>Shellder</item>
+    <item>Cloyster</item>
+    <item>Gastly</item>
+    <item>Haunter</item>
+    <item>Gengar</item>
+    <item>Onix</item>
+    <item>Drowzee</item>
+    <item>Hypno</item>
+    <item>Krabby</item>
+    <item>Kingler</item>
+    <item>Voltrob</item>
+    <item>Electrode</item>
+    <item>Exeggcute</item>
+    <item>Cubone</item>
+    <item>Marowak</item>
+    <item>Hitmonlee</item>
+    <item>Hitmonchan</item>
+    <item>Lickitung</item>
+    <item>Koffing</item>
+    <item>Weezing</item>
+    <item>Rhyhorn</item>
+    <item>Rhydon</item>
+    <item>Chansey</item>
+    <item>Kangaskhan</item>
+    <item>Horsea</item>
+    <item>Seadra</item>
+    <item>Goldeen</item>
+    <item>Seaking</item>
+    <item>Staryu</item>
+    <item>Starmie</item>
+    <item>Mr. mime</item>
+    <item>Scyther</item>
+    <item>jynx</item>
+    <item>Electrabuzz</item>
+    <item>Magmar</item>
+    <item>Pinsir</item>
+    <item>Tauros</item>
+    <item>Magikarp</item>
+    <item>Gyarados</item>
+    <item>Lapras</item>
+    <item>Ditto</item>
+    <item>Eevee</item>
+    <item>Vaporeon</item>
+    <item>Jolteon</item>
+    <item>Flareon</item>
+    <item>Porygon</item>
+    <item>Omanyte</item>
+    <item>Omastar</item>
+    <item>Kabutops</item>
+    <item>Aeerodactyl</item>
+    <item>Snorlax</item>
+    <item>Articuno</item>
+    <item>Zapdos</item>
+    <item>Moltres</item>
+    <item>Dratini</item>
+    <item>Dragonair</item>
+    <item>Dragonite</item>
+    <item>Mewto</item>
+    <item>Mew</item>
+    <item>Chikorita</item>
+    <item>Bayleaf</item>
+</string-array>
+
+ <string-array name="verbs">
+        <item>e göre davranmak</item>
+        <item>meydana gelmek</item>
+        <item>uyanmak</item>
+        <item>katlanmak</item>
+        <item>yenmek</item>
+        <item>sebep olmak</item>
+        <item>başlamak</item>
+        <item>bükmek</item>
+        <item>yasa boğulmak</item>
+        <item>yalvarmak</item>
+        <item>kıskanmak</item>
+        <item>ikamet etmek</item>
+        <item>iddaaya girmek</item>
+        <item>satın almak</item>
+        <item>bağlamak</item>
+        <item>ısırmak</item>
+        <item>kanamak</item>
+        <item>uğuldamak</item>
+        <item>koparmak</item>
+        <item>üremek</item>
+        <item>getirmek</item>
+        <item>yayınlamak</item>
+        <item>inşa etmek</item>
+        <item>yakmak</item>
+        <item>patlamak</item>
+        <item>satmak</item>
+        <item>film çekmek</item>
+        <item>yakalamak</item>
+        <item>seçmek</item>
+        <item>tutunmak</item>
+        <item>gelmek</item>
+        <item>maal olmak</item>
+        <item>sürünmek</item>
+        <item>kesmek</item>
+        <item>ilgilenmek</item>
+        <item>kazmak</item>
+        <item>yapmak</item>
+        <item>çizmek</item>
+        <item>rüya görmek</item>
+        <item>içmek</item>
+        <item>sürmek</item>
+        <item>ikamet etmek</item>
+        <item>yemek</item>
+        <item>düşmek</item>
+        <item>beslemek</item>
+        <item>hissetmek</item>
+        <item>dövüşmek</item>
+        <item>bulmak</item>
+        <item>tüymek</item>
+        <item>uçmak</item>
+        <item>yasaklamak</item>
+        <item>tahmin etmek</item>
+        <item>unutmak</item>
+        <item>yüzüstü bırakmak</item>
+        <item>donmak</item>
+        <item>almak</item>
+        <item>vermek</item>
+        <item>gitmek</item>
+        <item>öğütmek</item>
+        <item>asmak</item>
+        <item>sahip olmak</item>
+        <item>duymak</item>
+        <item>gizlemek</item>
+        <item>vurmak</item>
+        <item>tutmak</item>
+        <item>yaralamak</item>
+        <item>devam etmek</item>
+        <item>diz çökmek</item>
+        <item>bilmek</item>
+        <item>uzanmak</item>
+        <item>yol göstermek</item>
+        <item>sıçramak</item>
+        <item>kumar oynamak</item>
+        <item>ayrılmak</item>
+        <item>ödünç vermek</item>
+        <item>izin vermek</item>
+        <item>yalan söylemek</item>
+        <item>küfür etmek</item>
+        <item>kaybetmek</item>
+        <item>ızgara yapmak</item>
+        <item>anlamına gelmek</item>
+        <item>buluşmak</item>
+        <item>ödemek</item>
+        <item>koymak</item>
+        <item>okumak</item>
+        <item>yırtmak</item>
+        <item>bisiklet sürmek</item>
+        <item>gezmeye gitmek</item>
+        <item>müzik çalmak</item>
+        <item>yükselmek</item>
+        <item>koşmak</item>
+        <item>söylemek</item>
+        <item>görmek</item>
+        <item>araştırmak</item>
+        <item>göndermek</item>
+        <item>çıldırmak</item>
+        <item>ayarlamak</item>
+        <item>sallamak</item>
+        <item>atak yapmak</item>
+        <item>parıldamak</item>
+        <item>vurmak silahla</item>
+        <item>göstermek</item>
+        <item>büzülmek</item>
+        <item>açlık çekmek</item>
+        <item>vurmak</item>
+        <item>şarkı söylemek</item>
+        <item>batmak</item>
+        <item>oturmak</item>
+        <item>öldürmek</item>
+        <item>uyumak</item>
+        <item>kaymak</item>
+        <item>sapanla taş atmak</item>
+        <item>sinsi sinsi yürümek</item>
+        <item>yarmak</item>
+        <item>koklamak</item>
+        <item>mahvetmek</item>
+        <item>konuşmak</item>
+        <item>hızlanmak</item>
+        <item>harcamak</item>
+        <item>bölmek</item>
+        <item>döndürmek</item>
+        <item>ayırmak</item>
+        <item>kirletmek</item>
+        <item>yayılmak</item>
+        <item>terlemek</item>
+        <item>dikilmek</item>
+        <item>çalmak</item>
+        <item>dövmek</item>
+        <item>arı sokması</item>
+        <item>dava açmak</item>
+        <item>nüfuzunu kullanmak</item>
+        <item>çabalamak</item>
+        <item>yemin etmek</item>
+        <item>süpürmek</item>
+        <item>yüzmek</item>
+        <item>sallamak</item>
+        <item>işe almak</item>
+        <item>öğretmek</item>
+        <item>ağlamak</item>
+        <item>telefonla konuşmak</item>
+        <item>düşünmek</item>
+        <item>fırlatmak</item>
+        <item>güvenmek</item>
+        <item>tehdit etmek</item>
+        <item>uyanmak</item>
+        <item>giyinmek</item>
+        <item>el sallamak</item>
+        <item>hava atmak</item>
+        <item>rüz esmesi</item>
+        <item>kaçırmak</item>
+        <item>yazmak</item>
+        <item>dedikodu yapmak</item>
+        <item>üzülmek</item>
+        <item>burkmak</item>
+        <item>gaz çıkartmak</item>
+        <item>elemek</item>
+        <item>oy vermek</item>
+        <item>otostop çekmek</item>
+        <item>düşlemek</item>
+        <item>alkışlamak</item>
+        <item>genişletmek</item>
+        <item>atak yapmak</item>
+        <item>ele geçirmek</item>
+        <item>saldırmak</item>
+        <item>nefes almak</item>
+        <item>nefes vermek</item>
+        <item>fırlatmak</item>
+        <item>saplamak</item>
+        <item>göstermek</item>
+        <item>gösteri yapmak</item>
+        <item>çalışmak</item>
+        <item>dokunmak</item>
+        <item>cevap vermek</item>
+        <item>hizlemek</item>
+        <item>zıplamak</item>
+        <item>büyümek</item>
+        <item>taşmak</item>
+        <item>sırıtmak</item>
+        <item>suya dalmak</item>
+        <item>soyunmak</item>  
+        <item>seçmek</item> 
+        <item>şımarmak</item>
+        <item>saçmalamak</item>
+        <item>gözden kaybolmak</item>
+        <item>dökmek</item>   
+        <item>yakmak</item>
+        <item>kopyalamak</item>
+        <item>aldatmak</item>
+        <item>çalıştırmak</item>
+        <item>proses gerçekleştirmek</item>
+        <item>uygulamak</item>
+        <item>sıvamak</item>
+        <item>fışkırtmak</item>
+        <item>hıçkırmak</item>
+        <item>esnemek</item>
+        <item>ayılmak</item>
+        <item>dayanmak</item>
+        <item>kaşınmak</item>
+        <item>yükselmek</item>
+    </string-array>
+    
+     <string-array name="cloth">
+         <item>takım elbise</item>
+         <item>gömlek</item>
+         <item>kravat</item>
+         <item>elbise</item>
+         <item>bluz</item>
+         <item>etek</item>
+         <item>mont</item>
+         <item>ceket</item>
+         <item>t-shirt</item>
+         <item>kazak</item>
+         <item>kot pantolon</item>
+         <item>şort</item>
+         <item>yelek</item>
+         <item>süveter</item>
+         <item>sweatshirt</item>
+         <item>eldiven</item>
+         <item>tek parmaklı eldiven</item>
+         <item>bebek tulumu</item>
+         <item>bebek bezi</item>
+         <item>mayo</item>
+         <item>bikini</item>
+         <item>gece elbisesi</item>
+         <item>pijama</item>
+         <item>bornoz</item>
+         <item>boxer</item>
+         <item>don</item>
+         <item>sütyen</item>
+         <item>pantalon</item>
+         <item>çorap</item>
+         <item>tayt</item>
+         <item>yelek</item>
+         <item>ayakkabı</item>
+         <item>sandalet</item>
+         <item>bot</item>
+         <item>deri bot</item>
+         <item>terlik</item>
+         <item>çorap</item>
+         <item>baret</item>
+         <item>tümsek şapka</item>
+         <item>mafya şapkası</item>
+         <item>örgülü şapka</item>
+         <item>saçma şapka</item>
+         <item>yünlü şapka</item>
+         <item>kemer</item>
+         <item>el çantası</item>
+         <item>takım elbise</item>
+         <item>eşarf</item>
+         <item>gözlük</item>
+         <item>güneşgözlüğü</item>
+         <item>saat</item>
+         <item>eldiven</item>
+         <item>şapka</item>
+         <item>askılık</item>
+         <item>bilezik</item>
+         <item>kolye</item>
+         <item>yüzük</item>
+         <item>küpe</item>
+     </string-array>
+      <string-array name="eating">
+         <item>bıçak</item>
+         <item>çatal</item>
+         <item>kaşık</item>
+         <item>çay kaşığı</item>
+         <item>tabak</item>
+         <item>çukur tabak</item>
+         <item>kap</item>
+         <item>düz tabak</item>
+         <item>masa</item>
+         <item>sandalye</item>
+         <item>bardak</item>
+         <item>masa örtüsü</item>
+         <item>fincan</item>
+         <item>peçete</item>
+         <item>erkek garson</item>
+         <item>bayan garson</item>
+         <item>şef</item>
+         <item>menü</item>
+         <item>bardak</item>
+         <item>fıçı</item>
+         <item>mum</item>
+         <item>hesap</item>
+         <item>kredi kartı</item>
+         <item>bahşiş</item>
+         <item>taksi</item>
+         <item>kafe</item>
+         <item>abur cubur</item>
+         <item>fastfood restaurant</item>
+         <item>pub</item>
+         <item>bistro</item>
+         <item>başlangıç</item>
+         <item>ara sıcaklar</item>
+         <item>ana yemek</item>
+         <item>tatlı</item>
+         <item>soğuk içecek</item>
+         <item>içeçek</item>
+         <item>somon</item>
+         <item>morina</item>
+         <item>pisibalığı</item>
+         <item>mezgit</item>
+         <item>fileto</item>
+         <item>but</item>
+         <item>sığır filetosu</item>
+         <item>yumurta</item>
+         <item>krep</item>
+         <item>biftek</item>
+         <item>ekmek</item>
+         <item>brokoli</item>
+         <item>yağ</item>
+         <item>mısır</item>
+         <item>meyve</item>
+         <item>sarımsak</item>
+         <item>bal</item>
+         <item>reçel</item>
+         <item>kuzu</item>
+         <item>biber</item>
+         <item>domuz eti</item>
+         <item>pirinç</item>
+         <item>şeker</item>
+         <item>erik</item>
+         <item>muz</item>
+         <item>dut</item>
+         <item>böğürtlen</item>
+         <item>çilek</item>
+         <item>kavun</item>
+         <item>karpuz</item>
+         <item>pırasa</item>
+         <item>domates</item>
+         <item>patates</item>
+         <item>ıspanak</item>
+         <item>patlıcan</item>
+         <item>dolma</item>
+     </string-array>
+     <string-array name="animal">
+         <item>amerikan timsahı</item>
+         <item>karınca</item>
+         <item>ayı</item>
+         <item>arı</item>
+         <item>bird</item>
+         <item>kuş</item>
+         <item>kedi</item>
+         <item>çita</item>
+         <item>tavuk</item>
+         <item>şempanze</item>
+         <item>inek</item>
+         <item>timsah</item>
+         <item>geyik</item>
+         <item>köpek</item>
+         <item>yunus</item>
+         <item>ördek</item>
+         <item>şahin</item>
+         <item>fil</item>
+         <item>balık</item>
+         <item>sinek</item>
+         <item>tilki</item>
+         <item>kurbağa</item>
+         <item>zürafa</item>
+         <item>keçi</item>
+         <item>kızıl balık</item>
+         <item>hamster</item>
+         <item>su aygırı</item>
+         <item>at</item>
+         <item>kanguru</item>
+         <item>enik</item>
+         <item>aslan</item>
+         <item>yengeç</item>
+         <item>maymun</item>
+         <item>ahtapot</item>
+         <item>baykuş</item>
+         <item>panda</item>
+         <item>domuz</item>
+         <item>jaguar</item>
+         <item>tavşan</item>
+         <item>sıçan</item>
+         <item>akrep</item>
+         <item>fok</item>
+         <item>köpek balığı</item>
+         <item>koyun</item>
+         <item>salyangoz</item>
+         <item>yılan</item>
+         <item>örümcek</item>
+         <item>sincap</item>
+         <item>kaplan</item>
+         <item>kaplumbağa</item>
+         <item>kurt</item>
+         <item>zebra</item>
+         <item>yılan balığı</item>
+         <item>bukelamun</item>
+     </string-array>
+     <string-array name="sport">
+         <item>badminton</item>
+         <item>kriket</item>
+         <item>koşu</item>
+         <item>Dart</item>
+         <item>futbol</item>
+         <item>Golf</item>
+         <item>At yarışı</item>
+         <item>Snooker</item>
+         <item>Squash</item>
+         <item>masa tenisi</item>
+         <item>tenis</item>
+         <item>boks</item>
+         <item>Judo</item>
+         <item>Rugby</item>
+         <item>güreş</item>
+         <item>balıkçılık</item>
+         <item>kayak</item>
+         <item>kürek çekme</item>
+         <item>kürek çekme</item>
+         <item>yelken</item>
+         <item>surf</item>
+         <item>gülle atmaca</item>
+         <item>buz pateni</item>
+         <item>kayak</item>
+         <item>çim golfü</item>
+         <item>eskrim</item>
+         <item>hokey</item>
+         <item>kickboks</item>
+         <item>dağcılık</item>
+         <item>avcılık</item>
+     </string-array>
+     <string-array name="job">
+         <item>muhasebeci</item>
+         <item>fırıncı</item>
+         <item>berber</item>
+         <item>barmen</item>
+         <item>inşaat işçisi</item>
+         <item>kasap</item>
+         <item>marangoz</item>
+         <item>kasiyer</item>
+         <item>hizmetçi</item>
+         <item>şef</item>
+         <item>temizlikçi</item>
+         <item>dişçi</item>
+         <item>doktor</item>
+         <item>elektrikçi</item>
+         <item>mühendis</item>
+         <item>itfaiyeci</item>
+         <item>balıkçı</item>
+         <item>hostes</item>
+         <item>bayan kuaför</item>
+         <item>hakim</item>
+         <item>avukat</item>
+         <item>hemşire</item>
+         <item>gözlükçü</item>
+         <item>ressam</item>
+         <item>fotoğrafçı</item>
+         <item>su tesisatçısı</item>
+         <item>polis</item>
+         <item>hammal</item>
+         <item>postacı</item>
+         <item>receptionist</item>
+         <item>gazeteci</item>
+         <item>emlakçı</item>
+         <item>bilim adamı</item>
+         <item>yönetici</item>
+         <item>öğretmen</item>
+         <item>terzi</item>
+         <item>teknisyen</item>
+         <item>veteriner</item>
+         <item>garson</item>
+         <item>kaynakçı</item>
+         <item>pezevenk</item>
+     </string-array>
+     <string-array name="body">
+         <item>kol</item>
+         <item>boyun</item>
+         <item>göğüs kafesi</item>
+         <item>el</item>
+         <item>omuz</item>
+         <item>diz</item>
+         <item>ayak</item>
+         <item>bacak</item>
+         <item>dirsek</item>
+         <item>kafa</item>
+         <item>kol altı</item>
+         <item>sırt</item>
+         <item>popo</item>
+         <item>kalça</item>
+         <item>uyluk</item>
+         <item>kirpik</item>
+         <item>orta parmak</item>
+         <item>yüzük parmağı</item>
+         <item>tırnak</item>
+         <item>serçe parmak</item>
+         <item>işaret parmağı</item>
+         <item>eklem</item>
+         <item>bilek</item>
+         <item>topuk</item>
+         <item>ayak başparmağı</item>
+         <item>mesane</item>
+         <item>kemik</item>
+         <item>beyin</item>
+         <item>sindirim sistemi</item>
+         <item>kulak</item>
+         <item>göz</item>
+         <item>kalp</item>
+         <item>böbrek</item>
+         <item>karaciğer</item>
+         <item>hareket sistemi</item>
+         <item>ağız</item>
+         <item>iskelet</item>
+         <item>omurga</item>
+         <item>diş</item>
+         <item>kas sistemi</item>      
+     </string-array>
+ 
+    
+     
+</resources>

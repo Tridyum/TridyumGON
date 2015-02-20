@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/home"
+    android:background="@drawable/mainpage"
+    
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/homebutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:background="@drawable/confirm"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hometextView2"
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+          android:textSize="20sp"
+          android:background="@drawable/imagecustom"
+        android:textStyle="bold" 
+        android:textColor="#FF6600"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/imagetextView1"
+        android:layout_below="@+id/hometextView1"
+        android:layout_marginTop="31dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/hometextView3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/hometextView2"
+                android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text="TextView"
+              android:background="@drawable/imagecustom"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hometextView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+              android:background="@drawable/imagecustom"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hometextView3"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:textColor="#FF6600"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/homeimageView1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/homebutton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        
+        android:background="@drawable/imagecustom"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/hometextView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+                android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/homeimageView1"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/imagecustom"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

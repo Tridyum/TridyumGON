@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/page"
+    android:id="@+id/cars"
+     >
+
+    <Button
+        android:id="@+id/cayeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="31dp"
+        
+        android:textSize="20sp"
+         android:text="@string/yenidendene"
+        android:background="@drawable/buttoncustom"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/catimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+         android:textColor="#FFFFFF"
+        android:background="@drawable/imagecustom"
+        android:text="0"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/caimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/cadesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/cayeniden"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+   
+        android:gravity="center"
+             android:background="@drawable/confirm"
+        android:text="TextView"
+        android:textColor="#0033FF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/caswitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/confirm"
+        android:text="@string/devam"
+        
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

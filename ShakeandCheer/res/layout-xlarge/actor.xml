@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actors"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page" >
+
+    <TextView
+        android:id="@+id/atimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/area"
+        android:gravity="center"
+        android:textSize="85sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/imagecustom"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+       
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/confirm"
+         android:layout_height="50dp"
+        android:text="@string/devam"
+  android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/aimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/atimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/ozan" />
+
+    <TextView
+        android:id="@+id/adesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aimage"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/confirm"
+        android:gravity="center"
+        android:text="@string/area"
+        android:textColor="#0033FF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ayeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/adesc"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/buttoncustom"
+        android:text="@string/yenidendene"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/page"
+    android:id="@+id/cars"
+     >
+
+    <Switch
+        android:id="@+id/caswitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/confirm"
+        android:textSize="40sp"
+        android:text="@string/devam"
+        
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cadesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/caimage"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/confirm"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#0033FF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cayeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cadesc"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/buttoncustom"
+        android:text="@string/yenidendene"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/caimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/catimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/catimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caswitch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/imagecustom"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="85sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

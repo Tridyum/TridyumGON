@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:background="@drawable/page"
+    android:layout_height="fill_parent"
+    android:id="@+id/animals"
+     >
+
+    <TextView
+        android:id="@+id/antimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answitch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+       android:textColor="#FFFFFF"
+        android:background="@drawable/imagecustom"
+        android:text="0"
+        android:textSize="85sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/answitch1"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/confirm"
+        android:text="@string/devam"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/andesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/antimer"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/confirm"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#0033FF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/anyeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttoncustom"
+        android:text="@string/yenidendene"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

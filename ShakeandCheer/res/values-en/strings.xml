@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string name="nickname">Nickname</string>
+    <string name="bestscore">Best Score</string>
+    <string name="basliyor">Starting</string>
+    <string name="dogri">Correct</string>
+    <string name="pas">Empty</string>
+    <string name="tebrikler">Congratualition</string>
+    <string name="basarisiz">Failure</string>
+    <string name="yenidendene">Try again</string>
+    <string name="yenidenistermisini">Would you like to try again?</string>
+    <string name="evet">Yes</string>
+    <string name="hayir">No</string>
+    <string name="dur">Stop</string>
+    <string name="devam">Continue</string>
+    <string name="fotograf">Take a Photo</string>
+    <string name="regitertitle">Registration</string>
+     <string name="registerbutton">Register</string>
+     <string name="registerinfo">Enter Your Name please</string>
+      <string name="waiting">Please wait</string>
+         <string name="warning">Notice</string>
+         <string name="existing">You have an existing activity</string>
+   <string name="condo">Do you want to continue?</string>
+    <string name="faciklama">There are 10 categories</string>
+      <string name="saciklama">You will explain exactly 6 words to your friend in 30 minutes</string>
+         <string name="taciklama">If your friend knows correctly then press either volume up or volume down method</string>
+            <string name="ffaciklama">If it is wrong ,shake your phone in z axis </string>
+      <string name="eaa">Game Rules</string>
+      <string-array name="verbs">
+        <item>abide</item>
+        <item>arise</item>
+        <item>awake</item>
+        <item>bear</item>
+        <item>beat</item>
+        <item>beget</item>
+        <item>begin</item>
+        <item>bend</item>
+        <item>bereave</item>
+        <item>beseech</item>
+        <item>bespeak</item>
+        <item>bestride</item>
+        <item>bet</item>
+        <item>bid</item>
+        <item>bind</item>
+        <item>bite</item>
+        <item>bleed</item>
+        <item>blow</item>
+        <item>breake</item>
+        <item>breed</item>
+        <item>bring</item>
+        <item>broadcast</item>
+        <item>build</item>
+        <item>burn</item>
+        <item>burst</item>
+        <item>buy</item>
+        <item>cast</item>
+        <item>catch</item>
+        <item>choose</item>
+        <item>cling</item>
+        <item>come</item>
+        <item>cost</item>
+        <item>creep</item>
+        <item>cut</item>
+        <item>deal</item>
+        <item>dig</item>
+        <item>do</item>
+        <item>draw</item>
+        <item>dream</item>
+        <item>drink</item>
+        <item>drive</item>
+        <item>dwell</item>
+        <item>eat</item>
+        <item>fall</item>
+        <item>feed</item>
+        <item>feel</item>
+        <item>fight</item>
+        <item>find</item>
+        <item>flee</item>
+        <item>fly</item>
+        <item>forbid</item>
+        <item>forecast</item>
+        <item>forget</item>
+        <item>forsake</item>
+        <item>freeze</item>
+        <item>get</item>
+        <item>give</item>
+        <item>go</item>
+        <item>grind</item>
+        <item>hang</item>
+        <item>have</item>
+        <item>hear</item>
+        <item>hide</item>
+        <item>hit</item>
+        <item>hold</item>
+        <item>hurt</item>
+        <item>keep</item>
+        <item>kneel</item>
+        <item>know</item>
+        <item>lay</item>
+        <item>lead</item>
+        <item>leap</item>
+        <item>leam</item>
+        <item>leave</item>
+        <item>lend</item>
+        <item>let</item>
+        <item>lie</item>
+        <item>loose</item>
+        <item>lose</item>
+        <item>make</item>
+        <item>mean</item>
+        <item>meet</item>
+        <item>pay</item>
+        <item>put</item>
+        <item>read</item>
+        <item>rend</item>
+        <item>rid</item>
+        <item>ride</item>
+        <item>ring</item>
+        <item>rise</item>
+        <item>run</item>
+        <item>say</item>
+        <item>see</item>
+        <item>seek</item>
+        <item>send</item>
+        <item>sell</item>
+        <item>set</item>
+        <item>shake</item>
+        <item>shed</item>
+        <item>shine</item>
+        <item>shoot</item>
+        <item>show</item>
+        <item>shrink</item>
+        <item>shrive</item>
+        <item>shoot</item>
+        <item>sing</item>
+        <item>sink</item>
+        <item>sit</item>
+        <item>slay</item>
+        <item>sleep</item>
+        <item>slide</item>
+        <item>sling</item>
+        <item>slink</item>
+        <item>slit</item>
+        <item>smell</item>
+        <item>smite</item>
+        <item>speak</item>
+        <item>speed</item>
+        <item>spend</item>
+        <item>spit</item>
+        <item>spin</item>
+        <item>split</item>
+        <item>spoil</item>
+        <item>spread</item>
+        <item>spring</item>
+        <item>stand</item>
+        <item>steal</item>
+        <item>stick</item>
+        <item>sting</item>
+        <item>strike</item>
+        <item>string</item>
+        <item>strive</item>
+        <item>swear</item>
+        <item>sweep</item>
+        <item>swim</item>
+        <item>swing</item>
+        <item>take</item>
+        <item>teach</item>
+        <item>tear</item>
+        <item>tell</item>
+        <item>think</item>
+        <item>throw</item>
+        <item>trust</item>
+        <item>tread</item>
+        <item>wake</item>
+        <item>wear</item>
+        <item>weave</item>
+        <item>weep</item>
+        <item>win</item>
+        <item>wind</item>
+        <item>write</item>
+        <item>gossip</item>
+        <item>crawl</item>
+        <item>wring</item>
+        <item>fart</item>
+        <item>eliminate</item>
+        <item>vote</item>
+        <item>hijack</item>
+        <item>wave</item>
+        <item>clap</item>
+        <item>broad</item>
+        <item>attack</item>
+        <item>capture</item>
+        <item>invade</item>
+        <item>inhale</item>
+        <item>exhale</item>
+        <item>throw</item>
+        <item>stab</item>
+        <item>show</item>
+        <item>exhibit</item>
+        <item>work</item>
+        <item>touch</item>
+        <item>respond</item>
+        <item>conceal</item>
+        <item>jump</item>
+        <item>grow</item>
+        <item>boil over</item>
+        <item>tear</item>
+        <item>dive</item>
+        <item>take off</item>  
+        <item>pick</item> 
+        <item>select</item>
+        <item>choose</item>
+        <item>disappear</item>
+        <item>spill</item>   
+        <item>burn</item>
+        <item>copy</item>
+        <item>duplicate</item>
+        <item>execute</item>
+        <item>proceed</item>
+        <item>progress</item>
+        <item>plaster</item>
+        <item>gush</item>
+        <item>gulp</item>
+        <item>hiccup</item>
+        <item>sober</item>
+        <item>resist</item>
+        <item>itch</item>
+        <item>rise</item>
+    </string-array>
+    
+     <string-array name="cloth">
+         <item>suit</item>
+         <item>shirt</item>
+         <item>tie</item>
+         <item>dress</item>
+         <item>blouse</item>
+         <item>skirt</item>
+         <item>coat</item>
+         <item>jacket</item>
+         <item>t-shirt</item>
+         <item>trouser</item>
+         <item>jean</item>
+         <item>short</item>
+         <item>jumper</item>
+         <item>cardigan</item>
+         <item>sweatshirt</item>
+         <item>glove</item>
+         <item>mitten</item>
+         <item>romper</item>
+         <item>nappy</item>
+         <item>swimming trunk</item>
+         <item>bikini</item>
+         <item>nightdress</item>
+         <item>pyjama</item>
+         <item>dressing gown</item>
+         <item>boxer</item>
+         <item>y-fronts</item>
+         <item>bra</item>
+         <item>pant</item>
+         <item>stocking</item>
+         <item>tight</item>
+         <item>vest</item>
+         <item>shoe</item>
+         <item>sandal</item>
+         <item>boot</item>
+         <item>wellington</item>
+         <item>slipper</item>
+         <item>sock</item>
+         <item>beret</item>
+         <item>bowler</item>
+         <item>trilby</item>
+         <item>knitted hat</item>
+         <item>booble hat</item>
+         <item>woolen hat</item>
+         <item>belt</item>
+         <item>handbag</item>
+         <item>suit</item>
+         <item>scarf</item>
+         <item>glasses</item>
+         <item>sunglasses</item>
+         <item>watch</item>
+         <item>glove</item>
+         <item>hat</item>
+         <item>hanger</item>
+         <item>bracelet</item>
+         <item>necklace</item>
+         <item>ring</item>
+         <item>earrings</item>
+     </string-array>
+      <string-array name="eating">
+         <item>knife</item>
+         <item>fork</item>
+         <item>spoon</item>
+         <item>teaspoon</item>
+         <item>plate</item>
+         <item>bowl</item>
+         <item>cup</item>
+         <item>saucer</item>
+         <item>table</item>
+         <item>chair</item>
+         <item>glass</item>
+         <item>tablecloth</item>
+         <item>placemat</item>
+         <item>serviette</item>
+         <item>waiter</item>
+         <item>waitress</item>
+         <item>chef</item>
+         <item>menu</item>
+         <item>glass</item>
+         <item>bottle</item>
+         <item>candle</item>
+         <item>bill</item>
+         <item>credit card</item>
+         <item>tip</item>
+         <item>taxi</item>
+         <item>cafe</item>
+         <item>snack</item>
+         <item>fastfood restaurant</item>
+         <item>pub</item>
+         <item>bistro</item>
+         <item>starter</item>
+         <item>appetizers</item>
+         <item>main courses</item>
+         <item>desserts</item>
+         <item>beverage</item>
+         <item>drink</item>
+         <item>salmon</item>
+         <item>cod</item>
+         <item>plaice</item>
+         <item>haddock</item>
+         <item>fillet</item>
+         <item>rump</item>
+         <item>sirloin</item>
+         <item>egg</item>
+         <item>crep</item>
+         <item>beef</item>
+         <item>bread</item>
+         <item>broccoli</item>
+         <item>buttern</item>
+         <item>corn</item>
+         <item>fruit</item>
+         <item>garlic</item>
+         <item>honey</item>
+         <item>jam</item>
+         <item>lamb</item>
+         <item>pepper</item>
+         <item>pork</item>
+         <item>rice</item>
+         <item>sugar</item>
+         <item>plum</item>
+         <item>banana</item>
+         <item>mullberry</item>
+         <item>strawberry</item>
+         <item>cheerberry</item>
+         <item>melon</item>
+         <item>watermelon</item>
+         <item>leek</item>
+         <item>tomato</item>
+         <item>potato</item>
+         <item>spinach</item>
+         <item>eggplant</item>
+         <item>snack</item>
+     </string-array>
+     <string-array name="animal">
+         <item>alligator</item>
+         <item>ant</item>
+         <item>bear</item>
+         <item>bee</item>
+         <item>bird</item>
+         <item>camel</item>
+         <item>cat</item>
+         <item>cheetah</item>
+         <item>chicken</item>
+         <item>chimpanzee</item>
+         <item>cow</item>
+         <item>crocodile</item>
+         <item>deer</item>
+         <item>dog</item>
+         <item>dolphin</item>
+         <item>duck</item>
+         <item>eagle</item>
+         <item>elephant</item>
+         <item>fish</item>
+         <item>fly</item>
+         <item>fox</item>
+         <item>frog</item>
+         <item>giraffe</item>
+         <item>goat</item>
+         <item>goldfish</item>
+         <item>hamster</item>
+         <item>hippopotamus</item>
+         <item>horse</item>
+         <item>kangaroo</item>
+         <item>kitten</item>
+         <item>lion</item>
+         <item>lobster</item>
+         <item>monkey</item>
+         <item>octopus</item>
+         <item>owl</item>
+         <item>panda</item>
+         <item>pig</item>
+         <item>puppy</item>
+         <item>rabbit</item>
+         <item>rat</item>
+         <item>scorpion</item>
+         <item>seal</item>
+         <item>shark</item>
+         <item>sheep</item>
+         <item>snail</item>
+         <item>snake</item>
+         <item>spider</item>
+         <item>squirrel</item>
+         <item>tiger</item>
+         <item>turtle</item>
+         <item>wolf</item>
+         <item>zebra</item>
+         <item>eel</item>
+         <item>giraffe</item>
+     </string-array>
+     <string-array name="sport">
+         <item>badminton</item>
+         <item>Cricket</item>
+         <item>Cycling</item>
+         <item>Darts</item>
+         <item>Football</item>
+         <item>Golf</item>
+         <item>Horse Racing</item>
+         <item>Snooker</item>
+         <item>Squash</item>
+         <item>Table Tennis</item>
+         <item>Tennis</item>
+         <item>Boxing</item>
+         <item>Judo</item>
+         <item>Rugby</item>
+         <item>Wrestling</item>
+         <item>Fishing</item>
+         <item>Kayaking</item>
+         <item>Rowing</item>
+         <item>Rowing</item>
+         <item>Sailing</item>
+         <item>Water Skiing</item>
+         <item>Curling</item>
+         <item>Ice Skating</item>
+         <item>Skiing</item>
+         <item>Croquet</item>
+         <item>Fencing</item>
+         <item>Hockey</item>
+         <item>Lacrosse</item>
+         <item>Polo</item>
+         <item>Hunting</item>
+     </string-array>
+     <string-array name="job">
+         <item>accountant</item>
+         <item>baker</item>
+         <item>barber</item>
+         <item>barman</item>
+         <item>builder</item>
+         <item>butcher</item>
+         <item>carpenter</item>
+         <item>cashier</item>
+         <item>chambermaid</item>
+         <item>chef</item>
+         <item>cleaner</item>
+         <item>dentist</item>
+         <item>doctor</item>
+         <item>electrician</item>
+         <item>engineer</item>
+         <item>fireman</item>
+         <item>fisher</item>
+         <item>hostess</item>
+         <item>hairdresser</item>
+         <item>judge</item>
+         <item>lawyer</item>
+         <item>nurse</item>
+         <item>optician</item>
+         <item>painter</item>
+         <item>photographer</item>
+         <item>plumber</item>
+         <item>policeman</item>
+         <item>porter</item>
+         <item>postman</item>
+         <item>receptionist</item>
+         <item>reporter</item>
+         <item>representative</item>
+         <item>scientist</item>
+         <item>surgeon</item>
+         <item>teacher</item>
+         <item>tailor</item>
+         <item>technician</item>
+         <item>vet</item>
+         <item>waiter</item>
+         <item>welder</item>
+         <item>accountant</item>
+     </string-array>
+     <string-array name="body">
+         <item>Shoulder</item>
+         <item>Neck</item>
+         <item>Chest</item>
+         <item>Hand</item>
+         <item>Arm</item>
+         <item>Knee</item>
+         <item>Leg</item>
+         <item>Foot</item>
+         <item>Ankle</item>
+         <item>Head</item>
+         <item>Elbow</item>
+         <item>Back</item>
+         <item>Ass</item>
+         <item>Thigh</item>
+         <item>Calf</item>
+         <item>Heel</item>
+         <item>Middle Finger</item>
+         <item>Ring Finger</item>
+         <item>Nail</item>
+         <item>Little Finger</item>
+         <item>Index Finger</item>
+         <item>Knuckle</item>
+         <item>Wrist</item>
+         <item>Heel</item>
+         <item>Toe</item>
+         <item>bladder</item>
+         <item>bone</item>
+         <item>brain</item>
+         <item>digestive system</item>
+         <item>ear</item>
+         <item>eye</item>
+         <item>heart</item>
+         <item>kidney</item>
+         <item>liver</item>
+         <item>lung</item>
+         <item>mouth</item>
+         <item>skeleton</item>
+         <item>spine</item>
+         <item>tooth</item>
+         <item>urinary tract</item>      
+     </string-array>
+</resources>

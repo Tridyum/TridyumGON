@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/warning"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_background_pressed" >
+
+    <TextView
+        android:id="@+id/wartextView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@drawable/buttoncustom"
+        android:layout_above="@+id/wartextView1"
+         android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/wartextView1"
+        android:layout_marginBottom="95dp"
+        android:text="TextView" />
+
+    <TableRow
+        android:id="@+id/wartableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/warbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/buttoncustom"
+            android:text="Button"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/warbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/buttoncustom"
+            android:text="Button"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/wartextView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/wartableRow1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/buttoncustom"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

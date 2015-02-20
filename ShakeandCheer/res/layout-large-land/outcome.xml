@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/congra"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page" >
+
+    <RatingBar
+        android:id="@+id/conratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TableRow
+        android:id="@+id/contableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" >
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/contableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="64dp" >
+
+        <Button
+            android:id="@+id/conbutton1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+           
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/buttoncustom"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/conbutton2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:background="@drawable/buttoncustom"
+            android:text="Button" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/contextView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contableRow1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="TextView"
+            android:background="@drawable/imagecustom"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:id="@+id/contableRow3"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contableRow4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="56dp"
+        android:gravity="center" >
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/contableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contextView1"
+        android:layout_marginTop="53dp" >
+
+        <TextView
+            android:id="@+id/contextView2"
+            android:layout_width="100dp"
+              android:background="@drawable/imagecustom"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contextView3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="400dp"
+            android:background="@drawable/imagecustom"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/contextView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/contableRow4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/imagecustom"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

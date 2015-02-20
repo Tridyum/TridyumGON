@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/warning"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_background_pressed" >
+
+    <TableRow
+        android:id="@+id/wartableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp" >
+
+        <Button
+            android:id="@+id/warbutton1"
+            android:layout_width="100dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttoncustom"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+            android:layout_marginLeft="230dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/warbutton2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textSize="30sp"
+             android:textColor="#FFFFFF"
+             android:background="@drawable/buttoncustom"
+            android:layout_marginLeft="200dp"
+            android:text="Button" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/wartextView1"
+         android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:background="@drawable/buttoncustom"
+        android:layout_centerVertical="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/wartextView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@drawable/buttoncustom"
+        android:layout_above="@+id/wartextView1"
+         android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/wartextView1"
+        android:layout_marginBottom="95dp"
+        android:text="TextView" />
+
+</RelativeLayout>

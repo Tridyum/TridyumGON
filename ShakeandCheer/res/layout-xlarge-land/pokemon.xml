@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/page"
+    android:id="@+id/pokemons"
+     >
+
+    <Switch
+        android:id="@+id/pswitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/confirm"
+        android:textSize="30sp"
+        android:text="@string/devam"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ptimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/pyeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pdesc"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/buttoncustom"
+        android:text="@string/yenidendene"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ptimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pswitch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/imagecustom"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="85sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pdesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pimage"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/confirm"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#0033FF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

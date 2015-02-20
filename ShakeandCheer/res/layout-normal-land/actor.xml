@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actors"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page" >
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+       
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/confirm"
+         android:layout_height="30dp"
+        android:text="@string/devam"
+  
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ayeniden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/buttoncustom"
+        android:text="@string/yenidendene"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/adesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/ayeniden"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/confirm"
+        android:gravity="center"
+        android:text="@string/area"
+        android:textColor="#0033FF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/aimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/atimer"
+        android:layout_toRightOf="@+id/switch1"
+        android:src="@drawable/ozan" />
+
+    <TextView
+        android:id="@+id/atimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adesc"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="113dp"
+        android:background="@drawable/imagecustom"
+        android:gravity="center"
+        android:text="@string/area"
+        android:textColor="#FFFFFF"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
